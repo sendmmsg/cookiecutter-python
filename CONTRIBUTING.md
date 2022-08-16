@@ -44,7 +44,7 @@ and clone the fork to your local machine. You can now generate a project
 from your development version:
 
 ```console
-$ cookiecutter path/to/cookiecutter-hypermodern-python
+$ cookiecutter path/to/cookiecutter-python
 ```
 
 You may also want to push your generated project to GitHub,

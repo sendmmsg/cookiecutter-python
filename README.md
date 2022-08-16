@@ -1,4 +1,4 @@
-# cookiecutter-hypermodern-python
+# cookiecutter-python
 
 <!-- badges-begin -->
 
@@ -48,7 +48,7 @@
 ## Usage
 
 ```console
-$ cookiecutter gh:cjolowicz/cookiecutter-hypermodern-python --checkout=2022.6.3
+$ cookiecutter gh:sendmmsg/cookiecutter-python 
 ```
 
 ## Features
@@ -72,7 +72,7 @@ $ cookiecutter gh:cjolowicz/cookiecutter-hypermodern-python --checkout=2022.6.3
 - Static type-checking with [mypy]
 - Runtime type-checking with [Typeguard]
 - Automated Python syntax upgrades with [pyupgrade]
-- Security audit with [Bandit] and [Safety]
+- Security audit with [Safety]
 - Check documentation examples with [xdoctest]
 - Generate API documentation with [autodoc] and [napoleon]
 - Generate command-line reference with [sphinx-click]
@@ -81,7 +81,6 @@ $ cookiecutter gh:cjolowicz/cookiecutter-hypermodern-python --checkout=2022.6.3
 The template supports Python 3.7, 3.8, 3.9, and 3.10.
 
 [autodoc]: https://www.sphinx-doc.org/en/master/usage/extensions/autodoc.html
-[bandit]: https://github.com/PyCQA/bandit
 [black]: https://github.com/psf/black
 [click]: https://click.palletsprojects.com/
 [codecov]: https://codecov.io/
